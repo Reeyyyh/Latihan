@@ -159,3 +159,27 @@ img:not(.headpic){
     75%{border-color: rgb(18, 246, 197);}
     100%{border-color: rgb(226, 14, 191);}
 }
+
+
+/* viewport handphone */
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .content{
+        display: inline-block;
+        width: 100%;
+        background-color: rgb(222, 237, 237);
+        height: auto;
+    }
+
+    .Head{
+        font-size: 1em;
+    }
+
+    .box{
+        margin: auto;
+    }
+
+    .container h1{
+        font-size: 20px;
+    }
+}
