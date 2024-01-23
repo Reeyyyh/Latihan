@@ -122,11 +122,11 @@ img:not(.headpic){
 }
 
 .foot{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     display: inline-block;
     background-color: black;
     width: 100%;
-    padding-left: 20px;
-    padding-bottom: 0px;
 }
 
 .foot-text{
@@ -137,6 +137,10 @@ img:not(.headpic){
 .fa-brands{
     margin-bottom: 15px;
     font-size: 20px;
+}
+
+.li-foot{
+    list-style: none;
 }
 
 .li-foot:last-child{
