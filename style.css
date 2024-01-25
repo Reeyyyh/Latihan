@@ -160,6 +160,10 @@ img:not(.headpic){
     100%{border-color: rgb(226, 14, 191);}
 }
 
+.box a{
+    color: white;
+    text-decoration: none;
+}
 
 /* viewport handphone */
 
